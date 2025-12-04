@@ -1,0 +1,67 @@
+.position-container {
+  margin: auto;
+  margin-top: 100px;
+  width: 50vw;
+  border: solid 2px #000;
+}
+
+.position-box {
+  border: solid 1px #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-1,
+.box-3,
+.box-5 {
+  width: 400px;
+  height: 150px;
+  background-color: lightblue;
+}
+
+.box-2,
+.box-4,
+.box-6 {
+  background-color: lightgreen;
+}
+
+.box-1 {
+  position: relative;
+}
+
+.box-2 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.box-3 {
+  background-color: lightcyan;
+  position: relative;
+  left: 10px;
+  bottom: 30px;
+}
+
+.box-4 {
+  width: 200px;
+  height: 50px;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.box-5 {
+  position: relative;
+}
+
+.box-6 {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  position: absolute;
+  bottom: -35px;
+  left: -35px;
+}
