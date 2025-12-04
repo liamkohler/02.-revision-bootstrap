@@ -1,0 +1,51 @@
+.flexbox {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.flexbox-container {
+  display: flex;
+  margin-top: 50px;
+  width: 50vw;
+  height: 50vh;
+  border: 2px solid #000;
+  gap: 10px;
+}
+
+.flexbox-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+}
+
+.ex-01 {
+  justify-content: space-between;
+}
+
+.ex-02 {
+  align-items: center;
+  justify-content: center;
+}
+
+.ex-03 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ex-04 {
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.ex-05 {
+  :nth-child(2) {
+    flex-grow: 2;
+  }
+}
